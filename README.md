@@ -1,13 +1,13 @@
-## Lokal-Digital Baukasten
-**Projekt Website**: [https://projekt-lokal-digital.de/](https://projekt-lokal-digital.de/)
-
-![lokaldigital_Logo.png](https://lokaldigital.netphen.de/wp-content/uploads/2023/01/ConceptLogo_neutral.png)
+## LOKAL-digital Baukasten
+**Projekt Website**: [https://projekt-lokal-digital.de/](https://projekt-lokal-digital.de/)\
+**Baukasten Website**: [https://baukasten.projekt-lokal-digital.de/](https://baukasten.projekt-lokal-digital.de/)\
+![Logo](https://baukasten.projekt-lokal-digital.de/wp-content/uploads/2023/10/ConceptLogo_neutral-1536x1022.png)
 
 
 [![Open Source](https://img.shields.io/badge/Open%20Source-Yes-green.svg)](https://opensource.org/) [![License](https://img.shields.io/badge/Lizenz-General_Public_License_3.0-blue
 )](https://www.gnu.org/licenses/gpl-3.0.html) 
 
-## Table of contents
+## Inhaltsverzeichnis
 1. [Projektziele](#projektziele)
 2. [Voraussetzungen zur Installation](#voraussetzungen-zur-installation)
 8. [Installation und Konfiguration](#installation-und-konfiguration)
