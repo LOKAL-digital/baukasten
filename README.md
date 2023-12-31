@@ -21,8 +21,8 @@
 
 ## Voraussetzungen zur Installation
 - **Betriebsumgebung inkl. Server und Datenbank:** \
-Je nach kommunalen oder regionalen Strukturen werden unterschiedliche Betriebsumgebungen für IT-Systeme in Verwaltungen eingesetzt. Teilweise werden diese auch durch zentrale IT-Dienstleister betreut, was insgesamt eine heterogene Ausgangslage darstellt. Bevor Sie den Baukasten bei sich aufsetzen, ist daher zu klären in welcher Betriebsumgebung, sprich Serverinfrastruktur und Datenbank dieser aufgesetzt und betrieben werden soll. Dies hat sich im Projekt als wichtig herausgestellt, da an dieser Entscheidung verschiedene Konsequenzen hängen, z.B. Betreuung und Aktualisierung der Umgebung, Behandlung von technischen Problemen, etc.
-
+Je nach kommunalen oder regionalen Strukturen werden unterschiedliche Betriebsumgebungen für IT-Systeme in Verwaltungen eingesetzt. Teilweise werden diese auch durch zentrale IT-Dienstleister betreut, was insgesamt eine heterogene Ausgangslage darstellt. Bevor Sie den Baukasten bei sich aufsetzen, ist daher zu klären in welcher Betriebsumgebung, sprich Serverinfrastruktur und Datenbank dieser aufgesetzt und betrieben werden soll. Dies hat sich im Projekt als wichtig herausgestellt, da an dieser Entscheidung verschiedene Konsequenzen hängen, z.B. Betreuung und Aktualisierung der Umgebung, Behandlung von technischen Problemen, etc. \
+\
 Es ergeben sich dazu verschiedene Optionen. Welche trifft bei Ihnen zu? 
     - Eigener Betrieb in der kommunalen Verwaltung
     - Betrieb durch einen bereits vorhandenen IT-Dienstleister
@@ -32,22 +32,23 @@ Es ergeben sich dazu verschiedene Optionen. Welche trifft bei Ihnen zu?
 
 - **Beantragung URL:** \
 Es ist notwendig für ihre Kommune / Region eine neue Domain/URL zu beantragen. \
+\
 Es ergeben sich dazu verschiedene Optionen. Welche trifft bei ihnen zu? 
     - Erstellung einer Sub-Domain unter der eigenen kommunalen Homepage, z.B. lokaldigital.stadt.de 
     - Definition einer separaten neuen Sub-Domain
 
 - **Zertifikat:** \
-Nachdem ihre URL festgelegt wurde, beantragen Sie bitte ein passendes Sicherheitszertifikat(SSL-Zertifikat) um eine spätere Anmeldung der Rolleninhaber an dem System absichern zu können. Das Zertifikat realisiert das Schlossß-Symbol oben links im Webbrowser und zeigt eine sichere https-Verbindung an. Eine spätere Nutzung der Funktionen zur User-Registrierung und Anmeldung am System ohne Zertifikat ist aus Sicherheitsgründen nicht empfehlenswert. 
+Nachdem ihre URL festgelegt wurde, beantragen Sie bitte ein passendes Sicherheitszertifikat (SSL-Zertifikat) um eine spätere Anmeldung der Rolleninhaber an dem System absichern zu können. Das Zertifikat realisiert das Schlossß-Symbol oben links im Webbrowser und zeigt eine sichere https-Verbindung an. Eine spätere Nutzung der Funktionen zur User-Registrierung und Anmeldung am System ohne Zertifikat ist aus Sicherheitsgründen nicht empfehlenswert. 
 Handelt es sich um eine Sub-Domain ihrer bereits existierenden Domain und ihr dort hinterlegtes Zertifikat schließt auch Sub-Domains ein, so kann dieser Schritt ggf. übersprungen werden. \
-
+\
 Neues Zertifikat notwendig? 
     - Erstellung einer Sub-Domain unter der eigenen kommunalen Homepage, z.B. lokaldigital.stadt.de 
     - Definition einer separaten neuen Sub-Domain 
 
 - **SMTP Mail-Server:** \
 Für eine Selbst-Registrierung von Nutzerinnen und Nutzern wird später ein Mail-Server notwendig. Über diesen werden Registrierungsbestätigungen versendet und auch ein Passwortrücksetzungsprozess unterstützt. Ohne einen Mail-Server ist kein Versand von Mails möglich. 
-Je nachdem wie ihre Betriebsumgebung und Unterstützung durch IT-Experten in 3.1 ausfällt, kann es sein das dieser Mail-Server in ihrer bestehenden Umgebung bereits existiert. Nutzen Sie stattdessen einen Hosting-Anbieter kann die Mail-Serverfunktion neu mitbeauftragt werden. \
-
+Je nachdem wie ihre Betriebsumgebung und Unterstützung durch IT-Experten ausfällt, kann es sein das dieser Mail-Server in ihrer bestehenden Umgebung bereits existiert. Nutzen Sie stattdessen einen Hosting-Anbieter kann die Mail-Serverfunktion neu mitbeauftragt werden. \
+\
 Neuer Mail-Server notwendig? 
     - Ja 
     - Nein
@@ -56,6 +57,7 @@ Neuer Mail-Server notwendig?
 Aus rechtlicher Sicht bietet es sich an direkt zu Anfang über die Themen Impressum, Datenschutzerklärung, Cookie-Richtlinie, Copyright-Vorgaben und Einbindung von Social Media-Plugins zu sprechen. 
 Es kann hier sein das bereits Rahmendokumente durch die eigene kommunale Webseite bestehen. Dennoch hat die Projekterfahrung gezeigt, dass diese in der Regel nicht 1:1 übernommen werden können, vor allem wenn es Abweichungen bei der Betriebsumgebung und Nutzung von Plugins und damit Cookies gibt. 
 Eine weitre Frage ist wie sich die rechtlichen Angaben zwischen ihrer kommunalen Verwaltung und ein oder ggf. mehrerer involvierter Partner oder Dienstleister aufteilen und wer jeweils zu benennen ist. \
+\
 **Achtung! Im Baukasten sind ein Entwurf eines Impressums, einer Datenschutzerklärung und Cookie-Richtlinie enthalten. Eine Adaption oder Erweiterung auf ihrer lokale Situation ist aber zwingend erforderlich! Das Projektteam LOKAL-digital haftet an dieser Stelle nicht für die Korrektheit der enthaltenen Vorlage oder deren spätere Anpassung durch Sie. Bitte gehen Sie hier ggf. in Klärung mit ihrem rechtlichen Beistand oder den Experten in ihrem Haus.** 
 
 
@@ -64,11 +66,13 @@ Eine weitre Frage ist wie sich die rechtlichen Angaben zwischen ihrer kommunalen
 - **Wordpress aufsetzen:**
 Sollten sie WordPress manuell in ihrer existierenden Betriebsumgebung und nicht über einen IT-Dienstleister oder Hoster aufsetzen gehen Sie bitte wie folgt vor:
 Sie finden WordPress als Download unter: https://de.wordpress.org/download/
-Dort wird auf eine Anleitung zur Installation verwiesen (https://wordpress.org/support/article/howto-install-wordpress/). Bitte folgen Sie dieser und berücksichtigen Sie auch die Anforderungen an die weiteren technischen Komponenten:
-
-„Server mit der PHP-Version 7.4 oder höher und der MySQL-Version 5.7 ODER MariaDB-Version 10.3 oder höher. Das Core-Team von WordPress empfiehlt ferner Apache oder Nginx als die stabilsten Optionen für eine WordPress-Umgebung, aber auch andere Webserver sind möglich.“
-
-Mit dieser wurde der LOKAL-digital Baukasten am Ende der Projektlaufzeit getestet und die enthaltenen Plugins sind zu diesem kompatibel.
+Dort wird auf eine Anleitung zur Installation verwiesen (https://developer.wordpress.org/advanced-administration/before-install/howto-install/). Bitte folgen Sie dieser und berücksichtigen Sie auch die Anforderungen an die weiteren technischen Komponenten:
+\
+\
+*Stand Dezember 2023: „Server mit der PHP-Version 7.4 oder höher und der MySQL-Version 5.7 ODER MariaDB-Version 10.3 oder höher. HTTPS Unterstützung. Das Core-Team von WordPress empfiehlt ferner Apache oder Nginx als die stabilsten Optionen für eine WordPress-Umgebung, aber auch andere Webserver sind möglich.“*
+\
+\
+Mit diesen Versionen wurde der LOKAL-digital Baukasten am Ende der Projektlaufzeit getestet und die enthaltenen Plugins sind zu diesen kompatibel.
 
 - **Import LOKAL-digital Wordpress-Projekt:**
 Nachdem Sie die XML Datei aus GitHub (https://github.com/LOKAL-digital/baukasten) heruntergeladen haben, importieren Sie diese in WordPress über „Werkzeuge“ → „Daten importieren“. Wählen Sie alle benötigten Bestandteile wie Beiträge, Seiten, Kategorien, Schlagwörter etc. aus, damit diese aus dem Baukasten in Ihre eigene LOKAL-digital Instanz übernommen werden.
@@ -87,13 +91,13 @@ Nachdem Sie die XML Datei aus GitHub (https://github.com/LOKAL-digital/baukasten
     - Rollen überprüfen:
         - Die Rollen von Benutzern können in WordPress über ein eigenes Menü in der Navigationsleiste angepasst werden. Für jeden Benutzer     kann eine eigene gewünschte Rolle festgelegt werden oder auch Änderungen an der Rollenzuweisung vorgenommen werden.
     - Mail-Server einrichten
-    - Inhalte bearbeiten
-              - Die Beschreibung befindet sich im Leitfaden (PDF Dokument, nicht barrierefrei).
+    - Inhalte bearbeiten: 
+        - Die Beschreibung befindet sich im Leitfaden (PDF Dokument, nicht barrierefrei).
 
 ## Plugins
 
 Für WordPress können verschiedenste Plugins für die Aufwertung der Benutzerfreundlichkeit der Website verwendet werden. \
-Im Lokal-Digital Projekt wurden folgende Plugins eingesetzt: 
+Im LOKAL-digital Projekt wurden folgende Plugins eingesetzt: 
 
 Plugin-Name   | Zweck
 ------------- | -------------
@@ -119,7 +123,7 @@ LOKAL-digital (2023). Leitfaden für Aufbau und Methodik des Smarten Wissensmana
 
 Gerne können Sie bei Fragen Kontakt aufnehmen:
 
-Institut für Wissensbasierte Systeme und Wissensmanagement, Universität Siegen 
+Institut für Wissensbasierte Systeme und Wissensmanagement, Universität Siegen
 - Dr.-Ing. Johannes Zenkert (johannes.zenkert@uni-siegen.de) 
 
 ## Lizenz
