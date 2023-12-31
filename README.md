@@ -1,8 +1,9 @@
 ## LOKAL-digital Baukasten
 **Projekt Website**: [https://projekt-lokal-digital.de/](https://projekt-lokal-digital.de/)\
 **Baukasten Website**: [https://baukasten.projekt-lokal-digital.de/](https://baukasten.projekt-lokal-digital.de/)\
-![Logo](https://baukasten.projekt-lokal-digital.de/wp-content/uploads/2023/10/ConceptLogo_neutral-1536x1022.png)
+**Leitfaden Dokument**: [PDF, nicht barrierefrei](https://github.com/LOKAL-digital/baukasten/blob/main/LOKAL-digital-Leitfaden.pdf)
 
+![Logo](https://baukasten.projekt-lokal-digital.de/wp-content/uploads/2023/10/ConceptLogo_neutral-1536x1022.png)
 
 [![Open Source](https://img.shields.io/badge/Open%20Source-Yes-green.svg)](https://opensource.org/) [![License](https://img.shields.io/badge/Lizenz-General_Public_License_3.0-blue
 )](https://www.gnu.org/licenses/gpl-3.0.html) 
@@ -116,7 +117,7 @@ Complianz GDPR/CCPA Cookie Consent  | DSGVO, AVG mit bedingter Cookie-Warning un
 
 ## Leitfaden zum Download
 
-Sie können das Leitfaden Dokument hier herunterladen. Wir hoffen mit diesem Leitfaden Sie bei der Umsetzung ihrer eigenen LOKAL-digital Adaption unterstützen zu können. 
+Sie können das Leitfaden Dokument [hier](https://github.com/LOKAL-digital/baukasten/blob/main/LOKAL-digital-Leitfaden.pdf) herunterladen. Wir hoffen mit diesem Leitfaden Sie bei der Umsetzung ihrer eigenen LOKAL-digital Adaption unterstützen zu können. 
 
 Zitationsvorschlag (PDF): 
 LOKAL-digital (2023). Leitfaden für Aufbau und Methodik des Smarten Wissensmanagements für Pflege, Wohnen und Gesundheit 
