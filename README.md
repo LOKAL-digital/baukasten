@@ -12,7 +12,7 @@
 2. [Voraussetzungen zur Installation](#voraussetzungen-zur-installation)
 8. [Installation und Konfiguration](#installation-und-konfiguration)
 9. [Plugins](#plugins)
-10. [Screenshots](#screenshots) 
+10. [Leitfaden zum Download](#leitfaden-zum-download) 
 11. [Lizenz](#lizenz)
 
 
@@ -23,7 +23,7 @@
 - **Betriebsumgebung inkl. Server und Datenbank:** \
 Je nach kommunalen oder regionalen Strukturen werden unterschiedliche Betriebsumgebungen für IT-Systeme in Verwaltungen eingesetzt. Teilweise werden diese auch durch zentrale IT-Dienstleister betreut, was insgesamt eine heterogene Ausgangslage darstellt. Bevor Sie den Baukasten bei sich aufsetzen, ist daher zu klären in welcher Betriebsumgebung, sprich Serverinfrastruktur und Datenbank dieser aufgesetzt und betrieben werden soll. Dies hat sich im Projekt als wichtig herausgestellt, da an dieser Entscheidung verschiedene Konsequenzen hängen, z.B. Betreuung und Aktualisierung der Umgebung, Behandlung von technischen Problemen, etc.
 
-Es ergeben sich dazu verschiedene Optionen. Welche trifft bei Ihnen zu?
+Es ergeben sich dazu verschiedene Optionen. Welche trifft bei Ihnen zu? 
     - Eigener Betrieb in der kommunalen Verwaltung
     - Betrieb durch einen bereits vorhandenen IT-Dienstleister
     - Betrieb über eine zusätzlich beauftragte Serverinstanz durch einen Web-Hosting-Anbieter auf dem Markt.
